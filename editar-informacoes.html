@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    UFC - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas Tempo de Sessão: 01:30
+    <a href="home.html">
+      <button>
+        SAIR
+      </button>
+    </a>
+  </header><br />
+
+  <nav>
+    <a href="painel.html">Painel</a>
+    <a href="editar-informacoes.html">Editar Informações</a>
+    <a href="sobre.html">Sobre</a>
+  </nav>
+
+  <form action="painel.html">
+    Matrícula: <input type="number" /><br />
+    Nome: <input type="text" /><br />
+    Curso: <input type="text" /><br />
+    Sexo: <input type="text" maxlength="1" /><br />
+    Data de Nascimento: <input type="date" /><br />
+    CPF: <input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
+    <button type="submit">Salvar</button>
+    <button type="reset">Reset</button>
+  </form>
+
+  <footer>
+    SIGAA | Copyright © 2010-2022 - Superintendência de Tecnologia da Informação - UFC - (85) 3366-9999 -
+    si3asprd04.ufc.br
+  </footer>
+</body>
+
+</html>
